@@ -1,0 +1,182 @@
+/* all fonts */
+/* Noto serif */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  /* font-variation-settings:
+    "wdth" 100; */
+}
+ 
+/* Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* navbar section */
+
+.navbar-section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    max-height: 71px;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 120px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+.nav-color1{
+    color: rgba(37, 36, 50, 1);
+}
+.nav-color2{
+    color: rgba(137, 135, 161, 1);
+}
+.card-icon{
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 1);
+}
+.card-icon2{
+    width: 40px;
+}
+
+/* banner section */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    max-width: 1140px;
+    max-height: 460px;
+    margin: 0 auto;
+}
+.banner-section{
+    max-width: 570px;
+    max-height: 290px;
+    padding-top: 150px;
+}
+.paragraph{
+    font-size: 1.22rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.banner-text, .banner-text1{
+    font-size: 4rem;
+}
+.banner-text1{
+    color: #E95A08;
+}
+.banner-image{
+    max-width: 570px;
+    max-height: 350px;
+    padding-top: 85px;
+}
+
+/* plants section */
+.plants-section{
+    margin: 0 auto;
+    max-width: 1140px;
+    padding-top: 120px;
+}
+
+.plants-sub-section{
+    text-align: center;
+    max-width: 888px;
+    max-height: 54px;
+    margin: 0 auto;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;  
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.plant-text{
+    color: rgba(0, 0, 0, 1);
+    font-size: 3rem;
+    font-weight: 700;
+}
+.plant-text1{
+    color: #E95A08;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.plant-paragraph{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.22rem;
+}
+
+.card-subtitle{
+    text-align: center;
+}
+.card-image{
+    max-width: 270px;
+    max-height: 322px;
+}
+.card-name{
+    font-size: 1.22rem;
+    font-weight: 600;
+    color: rgba(17, 17, 17, 1);
+}
+.card-price{
+    font-size:1.22rem;
+    font-weight: 700;
+    color: rgba(17, 17, 17, 1);
+}
+.card-btn{
+    background-color: #E95A08;
+    width: 270px;
+    height: 30px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+}
+
+/* lover plants */
+.lover-plants{
+    display: flex;
+    max-width: 1140px;
+    max-height: 597px;
+}
+
+/* challenge section */
+.challenge-section{
+    max-width: 1440px;
+    max-height: 138px;
+    margin: 0 auto;
+    text-align: center;
+}
+.challenge-title{
+    color: #E95A08;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.challenge-subtitle{
+    color: rgba(0, 0, 0, 1);
+    font-size: 3rem;
+    font-weight: 700;
+}
+.deal-paragraph{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.22rem;
+}
