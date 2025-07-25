@@ -375,16 +375,15 @@
 
 /* join section */
 
-.background {
+.hero-section {
     background-image: url(../assets/news-letter-bg.png);
     max-width: 1440px;
     max-height: 533px;
     width: 1440px;
     height: 530px;
-    border: 1px solid #E95A08;
     text-align: center;
-    padding-top: 40px;
     margin: 0 auto;
+    padding-top: 40px;
     margin-top: 60px;
     margin-bottom: 50px;
 }
@@ -420,4 +419,74 @@ ul a {
 .footer-text{
     color: rgba(0, 0, 0, 0.5);
     font-size: 1.122rem;
+}
+
+/* responsive section */
+@media screen and (max-width: 576px) { 
+    .banner, 
+    .plants-lover,
+    .left-column,
+    .hero-section {
+        flex-direction: column;
+    }
+    .card-icon{
+        flex-direction: row;
+    }
+    .navbar-section{
+        flex-direction: row;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .nav-color1, .nav-color2{
+        display: none;
+    }
+    .top-icon{
+        display: none;
+    }
+    .logo-icon{
+
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        justify-content: left;
+    }
+    .banner, .banner-image{
+        margin-top: 50px;
+        margin-bottom: 80px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        text-align: left;
+    }
+    .Plants{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 250px);
+        gap: 40px;
+        margin: 0 auto;
+    }
+    .right-header{
+        font-size: 1.8rem;
+    }
+    .right-paragraph{
+       margin-bottom: 170px;
+    }
+    .challenge-section{
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .left-column{
+        gap: 30px;
+    }
+    .hero-section{
+        max-width: 100%;
+        max-height: 100%;
+    }
+   nav ul {
+    grid-template-columns: repeat(1, 1fr);
+   }
 }
