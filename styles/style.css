@@ -187,33 +187,39 @@
     width: 100%;
     position: relative;
 }
+
 .top-icon {
     position: absolute;
     top: -130px;
     left: 370px;
     width: 50%;
 }
-.right-paragraph{
+
+.right-paragraph {
     max-width: 540px;
     max-height: 520px;
     padding: 40px;
 }
-.right-header{
+
+.right-header {
     color: rgba(0, 0, 0, 1);
     font-size: 3rem;
     font-weight: 700;
 }
-.right-paragraph li{
+
+.right-paragraph li {
     color: rgba(0, 0, 0, 0.5);
     padding-top: 20px;
     font-size: 1.22rem;
 }
+
 /* challenge section */
 .challenge-section {
     max-width: 1440px;
     max-height: 138px;
     margin: 0 auto;
     text-align: center;
+    margin-top: 50px;
 }
 
 .btn-image {
@@ -237,11 +243,15 @@
     color: rgba(0, 0, 0, 0.5);
     font-size: 1.22rem;
 }
+
 /* challenge 2nd part */
 
 .container {
-   display: flex;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+
 .left-column {
     display: flex;
     flex-direction: column;
@@ -254,6 +264,7 @@
 .right-column {
     flex: 2;
 }
+
 .image-box {
     position: relative;
     border-radius: 10px;
@@ -266,6 +277,7 @@
     display: block;
     object-fit: cover;
 }
+
 .text-overlay {
     position: absolute;
     top: 50%;
@@ -274,89 +286,69 @@
     color: white;
     text-align: center;
 }
+
 .text-overlay a {
-    padding: 8px 16px;
     border-radius: 5px;
     font-weight: bold;
     font-size: 1.122rem;
     color: white;
 }
-/* .image-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-    position: relative;
-    width: 306px;
-    height: 175px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-.image-container img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-.text-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-}
-.text-overlay a{
-    color: rgb(255, 255, 255);
-    font-size: 1.125rem;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-} */
 
-/* example 2 */
+.text3 {
+    font-size: 1.9rem;
+}
 
-/* .deal{
+.hero-section {
+    background-image: url(../assets/news-letter-bg.png);
+    background-position: center;
+    height: 100vh;
     display: flex;
-    justify-content: space-around;
-    max-width: 1140px;
-    margin: 0 auto;
-    background-position: center;
-    text-align: center;
+    justify-content: center;
     align-items: center;
-    color: white; 
-} */
-/* .card-deal{
-    margin-top: -15px;
-}
-.deal a{
-    color: white;
-}
-h2 a {
-    position: absolute;
-    
-}
-.card1{
-    background-image: url(../assets/deal-ana.png);
-    width: 306px;
-    height: 200px;
-    background-repeat: no-repeat;
     position: relative;
+    color: white;
+    max-width: 1440px;
+    max-height: 450px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.overlay {
+    padding: 40px;
+    text-align: center;
     border-radius: 10px;
 }
-.card2{
-    background-image: url(../assets/deal-bloom.png);
-    width: 306px;
-    height: 200px;
-    background-size: cover;
-    border-radius: 10px;
+
+.overlay h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
 }
-.card3{
-    background-image: url(../assets/deal-zabo.png);
-    width: 753px;
-    height: 425px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-} */
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+.subscribe-form input[type="email"] {
+    padding: 12px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    flex: 1;
+    min-width: 250px;
+}
+
+.subscribe-form button {
+    padding: 12px 20px;
+    border: none;
+    background-color: #ff6600;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 5px 5px 0;
+
+}
+
 /* card section */
 .container {
     display: grid;
@@ -366,14 +358,17 @@ h2 a {
     max-height: 420px;
     margin: 0 auto;
 }
+
 .card-relative {
     position: relative;
     width: 100%;
     border: 2px solid brown;
 }
-.card-relative{
+
+.card-relative {
     position: relative;
 }
+
 .card-absolute {
     position: absolute;
 }
@@ -413,6 +408,7 @@ nav ul {
 
 ul a {
     text-decoration: none;
+    color: rgba(107, 114, 128, 1);
 }
 
 .footer-image {
@@ -420,4 +416,8 @@ ul a {
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
     align-items: first baseline;
+}
+.footer-text{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.122rem;
 }
